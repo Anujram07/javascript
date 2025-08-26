@@ -10,4 +10,8 @@
 //     console.log("welcome sir ")
 // }
 
-console.log(a)
+// let heroes = ["iron man", "spider man", "captain america","vision"]
+// console.log(heroes)
+
+console.log("5"+5)
+console.log("5"-5)
