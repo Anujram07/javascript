@@ -49,9 +49,41 @@
 
 // console.log(res)
 
-let arr = [1,2,3,4,5,6,7,8,6]
-let data = arr.filter((a,b,c)=>{
-    return a==6
-})
+// let arr = [1,2,3,4,5,6,7,8,6]
+// let data = arr.filter((a,b,c)=>{
+//     return a==6
+// })
 
-console.log(data)
+// console.log(data)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let arr = [1,2,3,5,4]
+// let sum = arr.filter((a,b,c,d)=>{
+//     return a>2
+// })
+// let res = arr.filter((a,b,c,d)=>{
+//     return a%2==0
+// })
+    
+// let data = arr.reduce((a,b,c,d)=>{
+//     return a+b
+// })
+
+
+// console.log(data)
