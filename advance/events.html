@@ -6,13 +6,51 @@
     <title>Document</title>
     
 </head>
+<style>
+    .child{
+        background-color: aliceblue;
+        border: 2px solid black;
+        padding: 20px;
+        margin: 20px;
+        cursor: pointer;
+    }
+    .childcontainer{
+        background-color: aliceblue;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .container{
+        background-color: yellowgreen;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px;
+        cursor: pointer;
+    }
+</style>
 <body>
-    <div class="container">
-        <div class="box">Hey i am box </div>
-    </div>
-    <button id="btn">
-        Change content
-    </button>
-    <script src="events.js"></script>
+   <div class="container">
+    <section class="childContainer">
+        <div class="child">
+            I am a child 
+        </div>
+    </section>
+   </div>
+   <script>
+    document.querySelector(".child").addEventListener
+    ("click",() =>{
+        e.stopPropogation()
+        alert("child was clicked")
+    })
+    document.querySelector(".chidcontainer").addEventListener
+    ("click",() =>{
+        alert("childcontainer was clicked")
+    })
+    document.querySelector(".container").addEventListener
+    ("click",() =>{
+        alert("container was clicked")
+    })
+   </script>
 </body>
 </html>

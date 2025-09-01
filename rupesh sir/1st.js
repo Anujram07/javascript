@@ -73,6 +73,7 @@
 
 
 
+
 // let arr = [1,2,3,5,4]
 // let sum = arr.filter((a,b,c,d)=>{
 //     return a>2
@@ -87,3 +88,6 @@
 
 
 // console.log(data)
+
+
+
