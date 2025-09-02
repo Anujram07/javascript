@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    // let a = 10
+    // {
+    //     let a = 20
+    //     console.log(a)
+    // }
+    // console.log(a)
+
+    // let a = 1
+    // function sum(){
+    //     var a = 5
+    //     console.log(a)
+    // }
+    // console.log(a)
+
+//   let arr = [1,2,4,5,6]
+//   arr.push(4)
+//   arr.pop()
+
+// arr.shift()
+//   console.log(arr)
+
+
+
+
+
+
+
+
+
+// function outer(){
+//     function inner(){
+//         console.log("inner")
+//     }
+//     return inner
+// }
+// let a = outer()
+// a()
+
+
+
+
+
+
+
+// function outer(a){
+//     // console.log("bolo na ")
+//     a()
+// }
+
+// function inner(){
+//     console.log("mkc")
+// }
+
+// outer(inner)
+
+
+
+
+// console.log(typeof(5))
+// console.log(typeof("c"))
+
+
+// return type of typeof() is always string
+// console.log(typeof(typeof(true)))
+// console.log(typeof(typeof("c")))
+// console.log(typeof(typeof(1)))
+
+// let arr = [2, 5, 7, "hi", "hello", "bye", true, false];
+// let arr1 = []; // numbers
+// let arr2 = []; // strings
+// let arr3 = []; // booleans
+
+// for (let i in arr) {
+//     if (typeof arr[i] === "number") {
+//         arr1.push(arr[i]);
+//     } else if (typeof arr[i] === "string") {
+//         arr2.push(arr[i]);
+//     } else if (typeof arr[i] === "boolean") {
+//         arr3.push(arr[i]);
+//     }
+// }
+
+// console.log("Numbers:", arr1);
+// console.log("Strings:", arr2);
+// console.log("Booleans:", arr3);
+
+         
+//   let arr = [2, 5, 7, "hi", "hello", "bye", true, false]
+//   function getString(i){
+//      return typeof i == "string"
+//   }
+//   function getNumber(i){
+//      return typeof i == "number"
+//   }
+//   function getFun(arr,fn){
+//     let res = []
+//     for( let i of arr){
+//         if(fn(i)){
+//             res.push(i)
+//         }
+//     }
+//      return res
+//   }
+//   console.log(getFun(arr,getString))
+//   console.log(getFun(arr,getNumber))
+
+
+// imp = agr func ne kuch return kiya to wo wala execution context apne aap gayab ho jaega
+// here closure is used 
+function outer(){
+    let user = "ankit"
+    function inner(){
+        console.log(user)
+    }
+    // return inner
+}
+
+let a = outer()
+a()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+<body>
+    
+</body>
+</html>
